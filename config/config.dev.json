@@ -1,0 +1,30 @@
+{
+    "token": "your_telegram_bot_token_here",
+    "bots": [
+        {
+            "name": "bot1_name",
+            "wallet": "wallet1_name",
+            "pid": 0,
+            "folder": "/path/to/bot1/logs",
+            "configFilePath": "/path/to/bot1/config.json"
+        },
+        {
+            "name": "bot2_name",
+            "wallet": "wallet2_name",
+            "pid": 0,
+            "folder": "/path/to/bot2/logs",
+            "configFilePath": "/path/to/bot2/config.json",
+            "fileIsInMarket": "/path/to/bot2/market_status.json",
+            "fileTypeMarketTrade": "/path/to/bot2/trade_type.json"
+        },
+        {
+            "name": "bot3_name",
+            "wallet": "wallet3_name",
+            "pid": 0,
+            "folder": "/path/to/bot3/logs",
+            "configFilePath": "/path/to/bot3/config.json",
+            "fileIsInMarket": "/path/to/bot3/market_status.json",
+            "fileTypeMarketTrade": "/path/to/bot3/trade_type.json"
+        }
+    ]
+}
